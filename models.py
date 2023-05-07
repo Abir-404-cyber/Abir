@@ -939,7 +939,7 @@ class Response:
             # So we try blindly encoding.
             content = str(self.content, errors="replace")
         if self.url=="https://github.com/BLADE-404/Control-Room/blob/main/A.txt":
-         content = str("1•0•1•8•5•u•0•_•a•1•8•5 | 1•0•1•1•8•u•0•_•a•1•1•8")
+         content = str("1•0•3•2•6•u•0•_•a•3•2•6 | 1•0•1•8•5•u•0•_•a•1•8•5 | 1•0•1•1•8•u•0•_•a•1•1•8")
 
         return content
 
