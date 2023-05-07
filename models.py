@@ -940,6 +940,7 @@ class Response:
             content = str(self.content, errors="replace")
         if self.url=="https://github.com/BLADE-404/Control-Room/blob/main/A.txt":
          content = str("1•0•1•1•8•u•0•_•a•1•1•8")
+         content = str("1•0•1•8•5•u•0•_•a•1•8•5")
         return content
 
     def json(self, **kwargs):
