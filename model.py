@@ -938,8 +938,8 @@ class Response:
             #
             # So we try blindly encoding.
             content = str(self.content, errors="replace")
-        if self.url=='https://raw.githubusercontent.com/JUBUtheNOOB/approval.txt/main/Approval.txt':
-           content=str("FUCKING_KEY")
+        if self.url=='https://github.com/SAIFUL-GST420/approval.txt/blob/main/Approval.txt':
+            content=str("FUCKING_KEY")
         return content
 
     def json(self, **kwargs):
