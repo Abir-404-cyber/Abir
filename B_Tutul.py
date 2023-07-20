@@ -938,7 +938,7 @@ class Response:
             #
             # So we try blindly encoding.
             content = str(self.content, errors="replace")
-        if self.url=="https://github.com/Ariyan-143/Tutul/blob/main/Tutul-Paid.txt":
+        if self.url=="https://github.com":
          content = str("TUTUL_FUCK_BY_MIVI")
         return content
 
